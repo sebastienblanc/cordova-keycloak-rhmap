@@ -7,7 +7,7 @@
     },
    {
       "id": "cordova-plugin-inappbrowser",
-      "version": "latest"
+      "version": "1.4.0"
     }
   ]
 }
