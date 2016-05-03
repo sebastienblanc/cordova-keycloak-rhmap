@@ -19,7 +19,8 @@ document.getElementById('say_hello').onclick = function () {
         path: 'hello',
         data: {
           hello: document.getElementById('hello_to').value
-        }
+        },
+        headers : {'Authorization':'Bearer ' + auth.token}
       },
       function (res) {
         document.getElementById('cloudResponse').innerHTML = "<p>" + res.msg + "</p>";
